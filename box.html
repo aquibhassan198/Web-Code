@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box</title>
+        <style>
+            #navbar{
+                width:100%;
+                /* border:1px solid red; */
+                height:60px;
+                display:flex;
+                justify-content:space-evenly;
+               
+            }
+
+            #navbar>div:first-child{
+                width:10%;
+                height:100%;
+                /* border:1px solid blue; */
+            }
+
+            #navbar>div:last-child{
+                width:70%;
+                height:100%;
+                /* border:1px solid teal; */
+                display:flex;
+                justify-content:space-around;
+               
+            }
+
+            #navbar>div{
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                text-transform:uppercase;
+                font-size:15px;
+               
+            }
+          
+            p+div{
+               display:flex;
+               background-color:#f2fdff; 
+               justify-content: center;
+               align-items: center;
+               padding:0px 20px;
+               
+               
+            }
+
+            select{
+                border:0;
+                color:red;
+            }
+
+            p+div>img{
+               width: 30px;
+               height:30px;
+               margin-left: 10px;
+               
+            }
+
+        button{
+        background-color:transparent;
+        border-color: red;
+        color:red;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+            }
+        
+            p:hover{
+                color:red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <div>
+                <img src="https://students.masaischool.com/static/media/masai-logo.e5c8801d4f26d2da036ec9e4b93cb202.svg" alt="masia-logo"
+                />
+            </div>
+            <div>
+                <select>
+                    <option value="">COURSES</option>
+                    
+                </select>
+                <p>fees & isa</p>
+                <p>abot us</p>
+                <p>hire from us</p>
+                <p>faq</p>
+                <p>events</p>
+                <div>
+                    <p>Refer & Earn</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOK9q0kCOlz7VrlFHCpkaKXGbaF5gSYVEDQj1z4gAlRloN0zJRPHV&usqp=CAE&s" alt=""/>
+                </div>
+                <button>Login</button>
+            </div>
+        </div>
+    </body>
+</html>
