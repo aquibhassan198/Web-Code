@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>StudyLab PSC</title>
+      
+    <style>
+
+    *{
+        margin:0px;
+        padding:0px;
+
+    }
+
+    /* Navbar CSS */
+
+    .nav{
+        height:80px;
+        /* border:1px solid red; */
+        box-shadow: 3px 3px 3px 3px rgb(238, 229, 229);
+        display:flex;
+        padding:0px 10%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav>div{
+        display:flex;
+    }
+
+    .nav>div:nth-child(1){
+        background-color:blueviolet;
+        height:100%;
+        align-items: center;
+        color: white;
+        padding:0px 15px;
+        
+    }
+
+    .nav>div:nth-child(1):hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
+    }
+
+    .nav>div:nth-child(2){
+        justify-content: space-between;
+        /* border: 1px solid teal; */
+        width:45%;
+        
+    }
+    #a{
+        color:blue;
+    }
+
+    .nav>div:nth-child(2)>h2:hover{
+        cursor: pointer;
+        color:#83d1c8;
+       
+
+    }
+
+    /* Main Css */
+    .main{
+       margin-top: 50px; 
+       display:flex;
+       width: 90%;
+       margin:auto;
+       margin-top: 50px;
+       justify-content: space-between;
+       
+       
+    }
+    .main>div{
+        width:40%;
+        justify-content: space-between;
+       
+    }
+    
+    /*  Left Portion */
+
+
+    .main>div:nth-child(1)>h4{
+        color:#2979ff;
+        margin-bottom: 10px;
+    }
+    .main>div:nth-child(1)>h1{
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .main>div:nth-child(1)>p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        
+    }
+
+    /* Right Portion */
+    .main>div:nth-child(2){
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+    }
+    .main>div:nth-child(2)>div{
+        width:40%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 20px;
+        padding:5% 3% 10% 5%;
+    }
+    .main>div:nth-child(2)>div>img{
+        width:100px;
+        margin:auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    p{
+        color:gray;
+        margin-bottom:-10px;
+        
+    }
+    #o{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #y{
+        /* justify-items: center; */
+        justify-content: space-evenly;
+    }
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav">
+      
+       <div>
+        <h1>StudyLab</h1>
+       </div>
+       <div>
+        <h2 id="a">Home</h2>
+        <h2>About</h2>
+        <h2>Course</h2>
+        <h2>Instructor</h2>
+        <h2>Blog</h2>
+        <h2>Contact</h2>
+       </div> 
+
+    </div>
+
+    <div class="main">
+
+        <div>
+           <h4>WELCOME TO STUDYLAB</h4> 
+           <h1>We Are StudyLab An Online Learning Center
+           </h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis ipsa, reiciendis iusto possimus vel. Ducimus natus a officiis ipsam neque. Labore quis odio praesentium perspiciatis ipsa excepturi voluptatum fugiat, rem ab reiciendis commodi eveniet quibusdam incidunt dolore quae facilis?</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis ipsa, reiciendis iusto possimus vel. Ducimus natus a officiis ipsam neque. Labore quis odio praesentium perspiciatis ipsa excepturi voluptatum fugiat, rem ab reiciendis commodi eveniet quibusdam incidunt dolore quae facilis?</p>
+        </div>
+        <div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rj2Vq509-Hbv9zk_i7JYOzv8XG55nNfKj_HsbXdl_SOHBGwvwsalDbLomTLepg648ps&usqp=CAU" alt="error"/>
+                <h2 id="o">Top Quality Content</h2>
+                <p id="y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, magni?</p>
+            </div>
+            <div>
+                <img src="https://www.teachhub.com/wp-content/uploads/2020/05/15-Professional-Development-Skills-for-Modern-Teachers-scaled.jpg" alt="error"/>
+                <h2 id="o">Highly Skilled Instructor</h2>
+                <p id="y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, magni?</p>
+            </div>
+            <div>
+                <img src="https://w7.pngwing.com/pngs/634/780/png-transparent-globe-world-logo-sphere-desktop-globe-miscellaneous-globe-computer.png" alt="error"/>
+                <h2 id="o">World Class & Quiz</h2>
+                <p id="y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, magni?</p>
+            </div>
+            <div>
+                <img src="https://www.learndash.com/wp-content/uploads/certified-image.png" alt=""/>
+                <h2 id="o">Get Certified</h2>
+                <p id="y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, magni?</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
